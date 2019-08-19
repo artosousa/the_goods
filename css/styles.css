@@ -96,6 +96,9 @@ h1{
     text-align: center;
     width: 100%;
 }
+#the-goods a span.at-symbol{
+    font-family: 'Courier New', Courier, monospace;
+}
 #the-goods p{
     text-align: center;
     color: #fff;
