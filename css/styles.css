@@ -53,26 +53,9 @@ h1{
 #the-goods{
     opacity:0;
     text-align:center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+   padding-top: 20px;
 }
-#the-goods .logo{
-    background: url(../images/GOODS_STACKED.png) center top no-repeat;
-    position: relative;
-    margin: 0px auto;
-    min-height:24em;
-    max-height:34em;
-    background-size: contain;
-}
-#the-goods .logo::after{
-    content: "";
-    display:block;
-    position: relative;
-    height: 15px;
-}
+
 h1{
     font-size: 30px;
     line-height: 35px;
