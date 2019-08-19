@@ -1,0 +1,8 @@
+# These rules will change if you change your site’s custom domains or HTTPS settings
+
+# Redirect domain aliases to primary domain
+https://www.cakescove.com/* https://www.thegoodsweets.com/:splat 301!
+https://cakescove.com/* https://www.thegoodsweets.com/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://thegoods.netlify.com/* https://www.thegoodsweets.com/:splat 301!
