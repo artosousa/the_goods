@@ -20,25 +20,38 @@
                 </div>
       
             <div class="col-xs-12 col-md-12 center-top" id="the-goods">
-                <img src="images/GOODS_STACKED.png" alt="">
+                <img src="images/GOODS_STACKED.png" height="500" alt="">
                 <h1>Coming Soon to Queen West<br/>
                     September 2019</h1>
-                    <section class="variable slider">
+                    <section class="variable slider" style=" width: 70%;position: relative;margin: 0px auto;">
                             <div>
-                              <img src="images/harrycake.jpg">
+                              <img src="images/harrycake.jpg" height="100">
                             </div>
                             <div>
-                              <img src="images/MilleniumFalcon.jpg">
+                              <img src="images/MilleniumFalcon.jpg" height="100">
                             </div>
                             <div>
-                              <img src="images/pokeballs.jpg">
+                              <img src="images/pokeballs.jpg" height="100">
                             </div>
                             <div>
-                              <img src="images/porg.jpg">
+                              <img src="images/porg.jpg" height="100">
                             </div>
                             <div>
-                              <img src="images/bb8.jpg">
+                              <img src="images/bb8.jpg" height="100">
                             </div>
+                            <div>
+                              <img src="images/chocoeggs.jpg" height="100">
+                            </div>
+                            <div>
+                              <img src="images/galaxybark.jpg" height="100">
+                            </div>
+                            <div>
+                              <img src="images/superman.jpg" height="100">
+                            </div>
+                            <div>
+                              <img src="images/wonderwomanshoe.jpg" height="100">
+                            </div>
+
                            
                           </section>
                     <a href="mailto:info@thegoodsweets.com">info<span class="at-symbol">@</span>thegoodsweets.com</a>
@@ -64,7 +77,9 @@
         dots: true,
         infinite: true,
         variableWidth: true
-      });
+      }).on('setPosition', function (event, slick) {
+        slick.$slides.css('height', '100px');
+      });;
       
     });
 </script>
