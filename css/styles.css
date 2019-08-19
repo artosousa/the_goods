@@ -79,6 +79,7 @@ h1{
     display: inline-block;
     text-align: center;
     width: 100%;
+    padding-top: 20px;
 }
 #the-goods a span.at-symbol{
     font-family: 'Courier New', Courier, monospace;
