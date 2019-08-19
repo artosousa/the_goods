@@ -6,6 +6,6 @@ window.addEventListener("load", function() {
         theGoods.classList.add("fade-in");
         cakesCove.classList.add("hidden");
         
-      }, 3000);
+      }, 5000);
 });
 
