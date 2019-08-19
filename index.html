@@ -113,7 +113,9 @@
       $(".variable").slick({
         dots: false,
         infinite: true,
-        variableWidth: true
+        variableWidth: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
       }).on('setPosition', function (event, slick) {
         slick.$slides.css('height', '100px');
       });;
